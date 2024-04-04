@@ -1,13 +1,11 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main()
 {
-	cout<< "Enter your name: ";
+	std::cout<< "Enter your name: "; // name request
 	string name;
-	cin >> name;
-        cout << "Hello World from " << name << endl;
+	std::cin >> name; // entering a name
+        std::cout << "Hello World from " << name << std::endl; // prints name
         return 0;
 }
