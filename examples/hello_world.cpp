@@ -3,9 +3,9 @@
 
 int main()
 {
-	std::cout<< "Enter your name: "; // name request
+	std::cout<< "Enter your name: "; // Namensanfrage
 	string name;
-	std::cin >> name; // entering a name
-        std::cout << "Hello World from " << name << std::endl; // prints name
+	std::cin >> name; // einen Namen eingeben
+        std::cout << "Hello World from " << name << std::endl; // druckt den Namen
         return 0;
 }
